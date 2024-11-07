@@ -1,0 +1,36 @@
+/* common styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:wght@400;700&display=swap');
+/* header styling */
+.header{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resources/background-image@2x.png");
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.page-title{
+    font-size: 1.5rem;
+    height: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.header-button{
+    color: #F3F4F6;
+    background-color: #95AAD0;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 50px;
+}
