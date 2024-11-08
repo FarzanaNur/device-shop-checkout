@@ -163,15 +163,18 @@ label input{
     width: 100%;
 }
 .country-code-container{
+    width: 95%;
     display: flex;
-    
+    /* flex: 1; */
     /* border: 2px solid red; */
 }
 .country-code-container label input{
     margin: 10px 0px;
     padding:10px;
+    flex: 1;
 }
 select{
+    flex: 1;
     margin: 10px 20px 10px 0px;
     padding:10px;
     outline: none;
