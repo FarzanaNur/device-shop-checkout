@@ -46,17 +46,22 @@ li a{
 }
 /* header styling */
 /* main styling */
+main{
+    padding: 20px;
+    
+}
 .container{
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
-    padding: 0px;
+    padding: 40px;
     margin: 20px 80px;
-    /* border-radius: 20px; */
-    /* border: 2px solid red; */
+    background-color: #F3F4F6;
 }
-.column-container,.item-column{
+.form-column,.item-column{
     padding: 10px;
     width: 50%;
+    box-shadow: 0px 0px  3px 3px #6c727f18;
     /* border: 2px solid red; */
 }
 .item-column{
@@ -97,21 +102,31 @@ hr{
 /* left form input styling */
 .left-form{
     padding: 20px;
-    
+    /* display: flex; */
     /* width: 100%; */
+}
+.l-form label{
+    display: flex;
+    gap: 20px;
+    width: 100%;
 }
 .l-form label input{
     padding:15px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     border: none;
     border-radius: 10px;
 }
 input:focus {
+    color: #1D1D1F;
     outline: none;
     border: none;
 }
 #coupon{
-    width: 65%;
+    width: 60%;
+    background-color: #F3F4F6;
+}
+#c-code{
+    width: 30%;
 }
 /* left total bill styling */
 .sub-total,.tax,.total-bill{
@@ -120,6 +135,55 @@ input:focus {
     padding: 0px 20px;
     margin: 10px 0px;
 }
+/* right column styling */
+.form-column{
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+}
+.contact-form{
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+ .form-column label{
+    display: block;
+    margin: 20px 0px;
+}
+label input{
+    width: 95%;
+    margin: 10px 0px;
+    padding:15px;
+    border: none;
+    border-radius: 10px;
+    /* color: #F3F4F6; */
+    background-color: #6c727f45;
+}
+.right-form-button{
+    width: 100%;
+}
+.country-code-container{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.country-code-container label input{
+    margin: 10px 0px;
+    padding:10px;
+}
+select{
+    margin: 10px 20px 10px 0px;
+    padding:10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c727f45;
+}
+option:focus{
+    color: #F3F4F6;
+    outline: none;
+    border: none;
+}
+/* responsive medium devices */
 @media screen and (max-width:990px){
     .container{
         font-size: 1.3em;
