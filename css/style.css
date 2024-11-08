@@ -164,6 +164,7 @@ label input{
 }
 .country-code-container{
     display: flex;
+    
     /* border: 2px solid red; */
 }
 .country-code-container label input{
@@ -189,13 +190,27 @@ option:focus{
         font-size: 1.3em;
         flex-direction: column;
     }
-    .column-container,.item-column{
+    .form-column,.item-column{
         width: 100%;
+        
     }
     .item-column{
         border-radius: 20px 20px 0px 0px;
     }
     #coupon{
         width: 75%;
+    }
+    .form-column{
+        border-radius: 0px 0px 20px 20px;
+    }
+    label input{
+        width: 85%;
+    }
+    .country-code-container{
+        width: 90%;
+        display: flex;
+    }
+    .right-form-button{
+        width: 90%;
     }
 }
