@@ -232,7 +232,7 @@ option:focus{
     /* contact-column responsive */
     .form-column{
         padding: 10px;
-        margin: 0px 0px 0px 10px;
+        margin: 0px 0px 20px 10px;
         border-radius: 0px 0px 20px 20px;
     }
     .contact-form{
