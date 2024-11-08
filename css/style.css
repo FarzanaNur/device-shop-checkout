@@ -194,10 +194,10 @@ option:focus{
     .container{
         flex-direction: column;
         padding: 0px;
-        margin: 0px  30px;
+        margin: 0px  10px;
     }
     .form-column,.item-column{
-        margin: 20px 10px 0px;
+        margin: 10px 10px 0px;
         width: 90%;
     }
     .item-column{
@@ -217,6 +217,13 @@ option:focus{
         margin-top: 20px;
         text-align: center;
         /* height: 100%; */
+    }
+    .left-form{
+        margin: 0px;
+        padding: 5px 20px;
+    }
+    .left-form input{
+        margin: 0px;
     }
     #c-code{
         padding: 10px 20px;
