@@ -219,7 +219,13 @@ option:focus{
 }
 /* responsive medium devices */
 @media screen and (max-width:750px){
+    main{
+        padding: 0px;
+        
+    }
     .container{
+        padding: 10px;
+        margin: 20px;
         font-size: .8em;
     }
     .form-column,.item-column{
