@@ -217,3 +217,30 @@ option:focus{
         width: 90%;
     }
 }
+/* responsive medium devices */
+@media screen and (max-width:750px){
+    .container{
+        font-size: .8em;
+    }
+    .form-column,.item-column{
+        width: 100%;
+    }
+    #coupon{
+        width: 65%;
+    }
+    .form-column{
+        border-radius: 0px 0px 20px 20px;
+    }
+    label input{
+        width: 90%;
+    }
+    .country-code-container{
+        width: 90%;
+    }
+    select{
+        width: 70%;
+    }
+    .right-form-button{
+        width: 90%;
+    }
+}
